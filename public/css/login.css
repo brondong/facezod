@@ -1,0 +1,10 @@
+.container {
+	margin-top: 100px;
+}
+.panel-title {
+	font-size: 30px;
+	color: #fff;
+}
+.alert {
+	display: none;
+}

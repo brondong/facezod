@@ -1,0 +1,54 @@
+.container {
+	margin-top: 20px;
+}
+
+.row {
+	margin: 0 -10px;
+}
+
+.row img {
+	margin: 0 auto;
+}
+
+.panel-title {
+	font-size: 30px;
+	color: #fff;
+}
+
+.panel-title small {
+	font-size: 12px;
+	color: #fff;
+}
+
+.dropdown-menu>li>a {
+	cursor: pointer;
+}
+
+.tab-content {
+	margin-top: 10px;
+}
+
+td:nth-child(2) {
+	padding-left: 20px;
+}
+
+#nomor {
+	margin: 0 auto;
+	float: none;
+	font-size: 50px;
+}
+
+#nomor p {
+	margin-top: -10px;
+}
+
+#warna {
+	margin: 0 auto;
+	float: none;	
+}
+
+#warna p {
+	margin-top: 15px;
+	min-height: 50px;
+	border: 1px solid #428bca;
+}

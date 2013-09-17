@@ -1,0 +1,47 @@
+.container {
+	margin-top: 20px;
+}
+
+.nav-tabs {
+	margin-bottom: 20px;
+}
+
+a {
+	cursor: pointer;
+}
+
+.panel-title {
+	font-size: 30px;
+	color: #fff;
+}
+
+.dropdown-menu a {
+	cursor: pointer;
+}
+
+textarea {
+	resize: none;
+}
+
+#warna, #tanggal {
+	background: #fff;
+	cursor: pointer;
+}
+
+#col-tambah {
+	margin: 0 auto;
+}
+
+th {
+	text-align: center;
+}
+
+.pagination {
+	margin: 0 auto;
+}
+
+#error, #sukses {
+	margin: 10px auto 0;
+	float: none;
+	display: none;
+}
