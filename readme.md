@@ -30,14 +30,16 @@ FaceZod merupakan aplikasi facebook yang berfungsi untuk menampilkan ramalan zod
 
 		php artisan migrate --seed
 
-8.	Upload folder `public` ke server dalam direktori `public_html`
+8.	Upload semua file & folder pada folder `public` ke server dalam direktori `public_html`
 
-9.	Upload folder lainnya di luar direktori `public_html`
+9.	Upload semua file & folder lainnya di luar direktori `public_html`
 
-10.	Login sebagai admin, misal url anda `facezod.dev`, login di
+10.	Rubah path `public` pada file `/bootstrap/paths.php` menjadi `public_html`
+
+		'public' => __DIR__.'/../public_html',
+
+11.	Login sebagai admin, misal url anda `facezod.dev`, login di
 		
 		facezod.dev/founder/masuk
 
-11.	Gunakan username `admins` dan password `adminlocal` untuk login
-
-12.	Input data ramalan zodiak
+12.	Gunakan username `admins` dan password `adminlocal` untuk login
